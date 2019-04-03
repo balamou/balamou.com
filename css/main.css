@@ -1,0 +1,49 @@
+/* Remove all paddings using universial selector*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ivyjournal, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  color: #3C3C3C;
+  /* Padding */
+  padding: 100px 30vh 0px 30vh;
+
+  background-color: #E8EDF3;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  background-color: white;
+  height: 100vh;
+}
+
+header {
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+  text-align: justify;
+}
+
+.mini-summary {
+  padding: 50px 180px 50px 180px;
+  display: inline-block;
+  background-color: #F7F8FA;
+}
+
+.main {
+  width: 50%;
+  float: left;
+  padding-right: 50px;
+}
+
+.side {
+  padding-bottom: 20px;
+}
