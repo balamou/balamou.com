@@ -1,4 +1,4 @@
-/* Remove all paddings using universial selector*/
+/* Remove all paddings using universial selector */
 * {
   margin: 0px;
   padding: 0px;
@@ -9,18 +9,13 @@ body {
   font-family: ivyjournal, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 11px;
+  font-size: 15px;
   color: #3C3C3C;
   /* Padding */
   padding: 100px 30vh 0px 30vh;
 
   background-color: #E8EDF3;
   letter-spacing: 0.05em;
-}
-
-.content {
-  background-color: white;
-  height: 100vh;
 }
 
 header {
@@ -32,9 +27,45 @@ p {
   text-align: justify;
 }
 
+div p {
+  padding: 10px;
+}
+
+.content {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER PICTURE */
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-title {
+  position: absolute;
+  float: left;
+  color: white;
+  font-size: 100px;
+
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pic-container {
+  position: absolute;
+}
+
+/* MINI SUMMARY */
 .mini-summary {
+  font-size: 11px;
   padding: 50px 180px 50px 180px;
-  display: inline-block;
+  display: block;
   background-color: #F7F8FA;
 }
 
