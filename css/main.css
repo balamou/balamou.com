@@ -6,16 +6,18 @@
 }
 
 body {
-  font-family: ivyjournal, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
   color: #3C3C3C;
   /* Padding */
   padding: 100px 30vh 0px 30vh;
 
   background-color: #E8EDF3;
   letter-spacing: 0.05em;
+
+  /* Font */
+  font-family: ivyjournal, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
 }
 
 header {
@@ -46,6 +48,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .align-horizontally {
@@ -99,7 +102,7 @@ p {
 /* MINI SUMMARY */
 .mini-summary {
   font-size: 11px;
-  padding: 50px 180px 50px 180px;
+  padding: 40px 100px;
   display: block;
   background-color: #F7F8FA;
 }
@@ -112,4 +115,49 @@ p {
 
 .side {
   padding-bottom: 20px;
+}
+
+/* Team pictures */
+.team {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+
+  /* Ivy journal SemiBold*/
+  font-family: ivyjournal, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+}
+
+.avi {
+  padding: 20px 35px;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1770FF;
+  background-color: transparent;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
 }
