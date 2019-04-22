@@ -20,15 +20,6 @@ body {
   font-size: 13px;
 }
 
-header {
-    font-style: normal;
-    font-weight: 700;
-}
-
-p {
-  text-align: justify;
-}
-
 .content {
   background-color: white;
   display: flex;
@@ -171,6 +162,8 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  margin-top: 10px;
   /* background-color: red; */
 }
 
@@ -183,4 +176,30 @@ a:active {
   vertical-align: middle; /* idk but this makes the div fit the image nicely*/
   max-width: 100%;
   padding: 5px;
+}
+
+/* Content */
+.intro, .research, .user-segmentation {
+   margin: 0px 85px;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+h2 {
+  font-style: normal;
+  font-size: 13px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+p {
+  text-align: justify;
 }
