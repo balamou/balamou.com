@@ -36,6 +36,8 @@ p {
 
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
   border-radius: 33px;
+
+  line-height: 1.9em;
 }
 
 /* HEADER PICTURE */
@@ -104,7 +106,9 @@ p {
   font-size: 11px;
   padding: 40px 100px;
   display: block;
+
   background-color: #F7F8FA;
+  line-height: 1.6em;
 }
 
 .main {
