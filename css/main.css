@@ -95,20 +95,25 @@ body {
 /* MINI SUMMARY */
 .mini-summary {
   font-size: 11px;
-  padding: 40px 100px;
+  padding: 30px 100px;
   display: block;
 
   background-color: #F7F8FA;
   line-height: 1.6em;
 }
 
-.main {
+.mini-summary header {
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.challenge {
   width: 50%;
   float: left;
   padding-right: 50px;
 }
 
-.side {
+.outcome {
   padding-bottom: 20px;
 }
 
@@ -179,7 +184,7 @@ a:active {
 }
 
 /* Content */
-.intro, .research, .user-segmentation {
+.intro, .research, .user-segmentation, .tool-kit {
    margin: 0px 85px;
 }
 
