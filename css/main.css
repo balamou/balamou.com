@@ -165,3 +165,22 @@ a:active {
   color: black;
   background-color: transparent;
 }
+
+/* Board images */
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.row {
+  width: 40%;
+  /* background-color: blue; */
+}
+
+.row img {
+  vertical-align: middle; /* idk but this makes the div fit the image nicely*/
+  max-width: 100%;
+  padding: 5px;
+}
