@@ -29,6 +29,7 @@ body {
   border-radius: 33px;
 
   line-height: 1.9em;
+  padding-bottom: 35px;
 }
 
 /* HEADER PICTURE */
@@ -185,7 +186,7 @@ a:active {
   padding: 5px;
 }
 
-/* ----------------------------- Content -----------------------------------  */
+/* ----------------------------- CONTENT ------------------------------------ */
 .intro, .research, .user-segmentation, .tool-kit, .roles {
    margin: 0px 90px;
 }
@@ -214,21 +215,24 @@ p {
   font-weight:600;
 }
 
-/* FOOTER */
+/* ------------------------------- FOOTER ----------------------------------- */
 footer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 50px;
+  color:black;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-message {
   font-family: roboto, sans-serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 50px;
-  text-align: center;
+  font-size: 44px;
+  letter-spacing: 0.1em;
 
-  /* background-color: red; */
-  /* float: left; */
+  text-align: center;
+  float: left;
 }
 
 .footer-menu {
@@ -252,4 +256,12 @@ footer {
 
 .footer-second div {
   margin-left: 40px;
+}
+
+footer a:visited, footer a:active, footer a:link {
+  color: black;
+}
+
+footer a:hover {
+  color: #1770FF;
 }
