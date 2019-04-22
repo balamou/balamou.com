@@ -102,9 +102,11 @@ body {
   line-height: 1.6em;
 }
 
-.mini-summary header {
-  font-size: 12px;
-  margin-top: 0px;
+.mini-summary h1 {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
 .challenge {
@@ -197,10 +199,9 @@ h2 {
   font-size: 13px;
 }
 
-header {
+h1 {
     margin-top: 20px;
     margin-bottom: 5px;
-    font-style: normal;
     font-weight: 700;
     font-size: 15px;
 }
@@ -211,4 +212,44 @@ p {
 
 .semi-bold {
   font-weight:600;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-message {
+  font-family: roboto, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+
+  /* background-color: red; */
+  /* float: left; */
+}
+
+.footer-menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  /* Fieldwork Geo Light */
+  font-family: fieldwork, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.footer-second {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-second div {
+  margin-left: 40px;
 }
