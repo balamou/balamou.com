@@ -183,9 +183,9 @@ a:active {
   padding: 5px;
 }
 
-/* Content */
-.intro, .research, .user-segmentation, .tool-kit {
-   margin: 0px 85px;
+/* ----------------------------- Content -----------------------------------  */
+.intro, .research, .user-segmentation, .tool-kit, .roles {
+   margin: 0px 90px;
 }
 
 ul {
@@ -207,4 +207,8 @@ header {
 
 p {
   text-align: justify;
+}
+
+.semi-bold {
+  font-weight:600;
 }
