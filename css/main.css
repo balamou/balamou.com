@@ -41,6 +41,19 @@ p {
   position: relative;
 }
 
+.align-vertically {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.align-horizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .pic-container img {
   display: block;
 }
@@ -53,8 +66,34 @@ p {
   text-align: center;
 
   font-family: roboto, sans-serif;
-  font-weight: 700;
   font-style: normal;
+  font-weight: 900;
+}
+
+.source-code {
+  position: absolute;
+  color: white;
+  z-index: 100;
+  left: 10px;
+  bottom: 10px;
+
+  /* Roboto Regular */
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wireframes {
+  position: absolute;
+  color: white;
+  z-index: 100;
+  right: 10px;
+  bottom: 15px;
+
+  /* Roboto Regular */
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* MINI SUMMARY */
