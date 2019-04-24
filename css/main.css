@@ -183,7 +183,7 @@ a:active {
 }
 
 /* ----------------------------- CONTENT ------------------------------------ */
-.intro, .research, .user-segmentation, .tool-kit, .roles {
+.intro, .research, .user-segmentation, .tool-kit, .roles, .structuring-app {
    margin: 0px 90px;
 }
 
@@ -211,6 +211,16 @@ p {
 
 .semi-bold {
   font-weight:600;
+}
+
+.structuring-app img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flow-item {
+    background-color: #fbfcfa;
+    margin-bottom: 10px;
 }
 
 /* ------------------------------- FOOTER ----------------------------------- */
