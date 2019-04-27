@@ -183,7 +183,7 @@ a:active {
 }
 
 /* ----------------------------- CONTENT ------------------------------------ */
-.intro, .research, .user-segmentation, .tool-kit, .roles, .structuring-app {
+.intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app {
    margin: 0px 90px;
 }
 
@@ -213,7 +213,7 @@ p {
   font-weight:600;
 }
 
-.structuring-app img {
+.structuring-app img, .wire-frames img {
     max-width: 100%;
     height: auto;
 }
