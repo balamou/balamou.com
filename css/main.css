@@ -1,0 +1,149 @@
+/* Remove all paddings using universial selector */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: #414042;
+  padding: 60px 30vh 0px 30vh;
+
+  /* FONT */
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+header {
+  display: flex;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+header h1 {
+  /* Font */
+  font-size: 50px;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.subtext {
+  margin-bottom: 10px;
+  /* Font */
+  font-size: 18px;
+  font-family: roboto, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+nav {
+  display: flex;
+  /* background-color: purple; */
+}
+
+nav div {
+  margin-right: 80px;
+  text-transform: uppercase;
+  /* background-color: yellow; */
+}
+
+nav div:last-child {
+  margin: 0px;
+}
+
+/* ------------------------------- LINKS ----------------------------------- */
+.links {
+  display: flex;
+  /* Font */
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.links div {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.links img {
+  width: 17px;
+  height: auto;
+  margin-right: 5px;
+}
+
+a:link, a:active {
+  color: #414042;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1770FF;
+}
+
+/* ------------------------------- FOOTER ----------------------------------- */
+footer {
+  margin: 50px 50px;
+  color:black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-message {
+  text-align: center;
+  float: left;
+
+  /* Font */
+  font-family: roboto, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: 0.1em;
+}
+
+.footer-menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
+  /* Fieldwork Geo Light */
+  font-family: fieldwork, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.footer-second {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-second div {
+  margin-left: 40px;
+}
+
+footer a:visited, footer a:active, footer a:link {
+  color: black;
+}
+
+footer a:hover {
+  color: #1770FF;
+}
