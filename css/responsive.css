@@ -1,4 +1,17 @@
 @media screen and (max-width: 480px) {
+  /* .hide-small {
+    display: none;
+  } */
+
+  .mini-summary {
+     margin: 0px 30px;
+  }
+
+  .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
+     margin: 0px 30px;
+     margin-top: 30px;
+  }
+
   .main-title {
     font-size: 60px;
   }
