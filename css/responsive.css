@@ -55,7 +55,11 @@
     width: auto;
   }
 
-  .mini-summary, .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
+  .mini-summary {
+     margin: 0px 50px;
+  }
+
+  .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
      margin: 0px 50px;
      margin-top: 30px;
   }
