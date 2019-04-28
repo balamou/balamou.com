@@ -58,10 +58,11 @@ body {
 .main-title {
   position: absolute;
   color: white;
-  font-size: 100px;
   width: 100%;
   text-align: center;
 
+  /* Font */
+  font-size: 100px;
   font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -94,30 +95,28 @@ body {
 }
 
 /* MINI SUMMARY */
-.mini-summary {
-  font-size: 11px;
-  padding: 30px 100px;
-  display: block;
-
+.mini-summary-section {
+  padding: 30px 0px;
   background-color: #F7F8FA;
+}
+
+.mini-summary {
+  display: flex;
+  font-size: 11px;
   line-height: 1.6em;
 }
 
 .mini-summary h1 {
-  font-size: 11px;
-  font-weight: 700;
   margin: 0px;
   margin-bottom: 5px;
+
+  /* Fonts */
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .challenge {
-  width: 50%;
-  float: left;
-  padding-right: 50px;
-}
-
-.outcome {
-  padding-bottom: 20px;
+  margin-right: 50px;
 }
 
 /* Team pictures */
@@ -134,7 +133,7 @@ body {
   font-size: 11px;
 }
 
-.profile-pic {
+.team img {
   width: 70px;
   height: 70px;
 }
@@ -182,9 +181,21 @@ a:active {
   padding: 5px;
 }
 
+/* TOOL KIT */
+.tool-kit div {
+  display:flex;
+  justify-content:center;
+}
+
+.tool-kit img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ----------------------------- CONTENT ------------------------------------ */
-.intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app {
+.mini-summary, .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
    margin: 0px 90px;
+   margin-top: 30px;
 }
 
 ul {
@@ -198,7 +209,6 @@ h2 {
 }
 
 h1 {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 18px;
@@ -233,20 +243,22 @@ footer {
 }
 
 .footer-message {
+  text-align: center;
+  float: left;
+
+  /* Font */
   font-family: roboto, sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 44px;
   letter-spacing: 0.1em;
-
-  text-align: center;
-  float: left;
 }
 
 .footer-menu {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content:space-between;
 
   /* Fieldwork Geo Light */

@@ -1,0 +1,62 @@
+@media screen and (max-width: 480px) {
+  .main-title {
+    font-size: 60px;
+  }
+
+  .mini-summary {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    line-height: 1.6em;
+  }
+
+  .challenge {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .team {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+
+    /* Ivy journal SemiBold*/
+    font-family: ivyjournal, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 11px;
+  }
+
+  footer {
+    margin: 50px 0px;
+  }
+
+  .footer-message {
+    font-size: 30px;
+  }
+
+  .footer-second div {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    padding: 60px 10vh 0px 10vh;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    padding: 0px 0vh 0px 0vh;
+    width: auto;
+  }
+
+  .mini-summary, .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
+     margin: 0px 50px;
+     margin-top: 30px;
+  }
+}
