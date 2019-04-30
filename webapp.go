@@ -34,7 +34,6 @@ func router(request string) (*Page) {
 }
 
 func handler(writer http.ResponseWriter, request *http.Request) {
-		// fmt.Println(request)
 		page := router(request.URL.Path[1:])
 
 		if page != nil {
@@ -44,12 +43,10 @@ func handler(writer http.ResponseWriter, request *http.Request) {
 }
 
 func main() {
-		// fs := http.FileServer(http.Dir("static/"))
-		// http.Handle("/static/", http.StripPrefix("/static/", fs))
 		port := os.Getenv("PORT")
 		fs := http.FileServer(http.Dir("static"))
+		
 	  http.Handle("/", fs)
     http.HandleFunc("/indulge", handler)
-
     log.Fatal(http.ListenAndServe(":" + port, nil))
 }

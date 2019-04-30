@@ -1,0 +1,4 @@
+Instructions:
+- mkdir go_project
+- cd go_project
+- govendor init
