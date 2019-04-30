@@ -8,6 +8,7 @@
 body {
   color: #414042;
   padding: 60px 30vh 0px 30vh;
+  background-color: #E8EDF3;
 
   /* FONT */
   font-family: roboto, sans-serif;
@@ -16,19 +17,36 @@ body {
   letter-spacing: 0.05em;
 }
 
+.content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  border-radius: 33px;
+
+  line-height: 1.9em;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+
 div {
   letter-spacing: 0.05em;
 }
 
 header {
+  /* background-color: red; */
   display: flex;
   margin-bottom: 100px;
   align-items: center;
   justify-content: space-between;
-  /* background-color: red; */
+  width: 100%;
+  padding: 40px 40px;
 }
 
 header h1 {
+  margin-bottom: 5px;
   /* Font */
   font-size: 50px;
   font-style: normal;
@@ -36,7 +54,7 @@ header h1 {
 }
 
 .subtext {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   /* Font */
   font-size: 18px;
   font-style: italic;
@@ -102,19 +120,21 @@ a:hover {
 }
 
 .projects {
-  /* background-color: purple; */
+  /* background-color: yellow; */
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 40px;
 
   /* FONT */
   font-size: 13px;
 }
 
 .projects div {
-  /* background-color: yellow; */
-  width: 47%;
-  margin: 10px;
+  /* background-color: orange; */
+  width: 49%;
   padding: 15px;
+  margin-top: 20px;
 
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
   border-radius: 15px;
