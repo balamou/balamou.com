@@ -273,10 +273,9 @@ a:hover {
 
 /* ------------------------------- FOOTER ----------------------------------- */
 footer {
-  /* background-color: red; */
+  color:black;
   width: 100%;
   margin: 50px 0;
-  color:black;
   padding: 0px 50px;
 
   display: flex;
@@ -284,9 +283,7 @@ footer {
 }
 
 .footer-message {
-  /* background-color: orange; */
   text-align: center;
-  float: left;
 
   /* Font */
   font-family: roboto, sans-serif;
@@ -297,7 +294,6 @@ footer {
 }
 
 .footer-menu {
-  /* background-color: yellow; */
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -312,8 +308,7 @@ footer {
   letter-spacing: 0.1em;
 }
 
-.footer-menu div {
-  /* background-color: magenta; */
+.footer-menu {
   display: flex;
 }
 
@@ -326,10 +321,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   width: 37.5%;
-}
-
-.footer-second div {
-  /* background-color: brown; */
 }
 
 footer a:visited, footer a:active, footer a:link {
