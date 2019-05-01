@@ -19,7 +19,7 @@
     margin: 0px 50px;
   }
 
-  .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
+  .margin-box {
      margin: 0px 50px;
      margin-top: 30px;
   }
@@ -64,7 +64,7 @@
     display: none;
   } */
 
-  .intro, .research, .user-segmentation, .wire-frames, .tool-kit, .roles, .structuring-app, .final-design {
+  .margin-box  {
      margin: 0px 30px;
      margin-top: 30px;
   }
