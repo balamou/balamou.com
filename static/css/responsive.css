@@ -81,7 +81,7 @@
     font-size: 30px;
   }
 
-  .footer-second div {
-    margin: 10px;
+  .footer-second {
+    width: 52%;
   }
 }
