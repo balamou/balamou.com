@@ -24,6 +24,10 @@
      margin-top: 30px;
   }
 
+  .intro {
+    margin-top: 0px;
+  }
+
   .hide-small {
     display: none;
   }
@@ -91,6 +95,10 @@
   .margin-box  {
      margin: 0px 30px;
      margin-top: 30px;
+  }
+
+  .intro {
+    margin-top: 0px;
   }
 
   .mini-summary {
