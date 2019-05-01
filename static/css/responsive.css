@@ -3,6 +3,10 @@
     padding: 60px 10vh 0px 10vh;
     width: auto;
   }
+
+  .footer-second {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -33,6 +37,19 @@
   .challenge {
     margin: 0;
     margin-bottom: 30px;
+  }
+
+  .footer-menu {
+    justify-content: center;
+  }
+
+  .footer-copyright {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-second {
+    width: 60%;
   }
 }
 
@@ -81,7 +98,15 @@
     font-size: 30px;
   }
 
+  .footer-menu {
+    justify-content: center;
+  }
+
+  .footer-copyright {
+    width: 100%;
+  }
+
   .footer-second {
-    width: 52%;
+    width: 80%;
   }
 }
