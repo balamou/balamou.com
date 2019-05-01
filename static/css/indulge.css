@@ -124,6 +124,11 @@ p {
   padding-left: 10px;
 }
 
+.source-code-text a:link, .source-code-text a:active, .source-code-text a:visited, .source-code-text a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .wireframes {
   position: absolute;
   color: white;
