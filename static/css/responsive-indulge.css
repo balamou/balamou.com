@@ -49,6 +49,10 @@
     line-height: 1.6em;
   }
 
+  .avi {
+    margin: 20px 20px;
+  }
+
   .challenge {
     margin: 0;
     margin-bottom: 30px;
@@ -91,6 +95,10 @@
 
   .mini-summary {
     margin: 0px 30px;
+  }
+
+  .avi {
+    margin: 20px 10px;
   }
 
   .main-title {

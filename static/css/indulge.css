@@ -193,7 +193,10 @@ p {
 }
 
 .avi {
-  padding: 20px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 35px;
 }
 
 a:link, a:active {
