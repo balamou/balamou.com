@@ -229,16 +229,20 @@ a:hover {
 }
 
 /* TOOL KIT */
-.tool-kit {
+.tools {
   display: flex;
   justify-content: center;
 }
 
-.tool-kit div {
+.tool-kit a {
+  border-bottom: 1px dotted silver;
+}
+
+.tools div {
   width: 50%;
 }
 
-.tool-kit img {
+.tools img {
   max-width: 100%;
   height: auto;
 }
