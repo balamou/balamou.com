@@ -41,11 +41,13 @@
 
   .footer-menu {
     justify-content: center;
+    flex-wrap: wrap-reverse;
   }
 
   .footer-copyright {
     width: 100%;
     text-align: center;
+    margin-top: 10px;
   }
 
   .footer-second {
