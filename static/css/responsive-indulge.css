@@ -34,6 +34,10 @@
   .board div {
     width: 100%;
   }
+
+  .flow-item-3 {
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -50,6 +54,11 @@
     margin-bottom: 30px;
   }
 
+  .tool-kit div {
+    width: 80%;
+  }
+
+  /* FOOTER */
   .footer-menu {
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -71,9 +80,9 @@
 }
 
 @media screen and (max-width: 480px) {
-  /* .hide-small {
+  .hide-xsmall {
     display: none;
-  } */
+  }
 
   .margin-box  {
      margin: 0px 30px;

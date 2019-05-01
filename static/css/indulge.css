@@ -229,9 +229,13 @@ a:hover {
 }
 
 /* TOOL KIT */
-.tool-kit div {
+.tool-kit {
   display: flex;
   justify-content: center;
+}
+
+.tool-kit div {
+  width: 50%;
 }
 
 .tool-kit img {
@@ -240,16 +244,16 @@ a:hover {
 }
 
 /* ----------------------------- STRUCTURING ------------------------------------ */
-.structuring-app img, .wire-frames img {
+.structuring-app img, .wire-frame img {
   max-width: 100%;
   height: auto;
 }
 
-.structuring-app-images {
+.flow {
   display:flex;
 }
 
-.flow-item-1, .flow-item-2, .flow-item-3 {
+.flow div {
   margin-bottom: 10px;
 }
 
