@@ -45,7 +45,12 @@ func handler(writer http.ResponseWriter, request *http.Request) {
 func main() {
 		port := os.Getenv("PORT")
 		fs := http.FileServer(http.Dir("static"))
-		
+
+		if len(port) == 0 {
+			fmt.Println("Gloabl enviroment variable $PORT is empty. Using default port 80. ")
+			port = "80"
+		}
+
 	  http.Handle("/", fs)
     http.HandleFunc("/indulge", handler)
     log.Fatal(http.ListenAndServe(":" + port, nil))
