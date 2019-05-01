@@ -69,6 +69,10 @@ p {
 .semi-bold {
   font-weight:600;
 }
+
+div.link {
+  cursor: pointer;
+}
 /* ----------------------------- HEADER PICTURE ----------------------------- */
 .header-container {
   position: relative;
