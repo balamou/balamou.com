@@ -124,6 +124,11 @@ p {
   padding-left: 10px;
 }
 
+.source-code-text a:link, .source-code-text a:active, .source-code-text a:visited, .source-code-text a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .wireframes {
   position: absolute;
   color: white;
@@ -267,14 +272,18 @@ a:hover {
 
 /* ------------------------------- FOOTER ----------------------------------- */
 footer {
-  margin: 50px 50px;
+  /* background-color: red; */
+  width: 100%;
+  margin: 50px 0;
   color:black;
+  padding: 0px 50px;
 
   display: flex;
   flex-direction: column;
 }
 
 .footer-message {
+  /* background-color: orange; */
   text-align: center;
   float: left;
 
@@ -287,11 +296,12 @@ footer {
 }
 
 .footer-menu {
+  /* background-color: yellow; */
   margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
 
   /* Fieldwork Geo Light */
   font-family: fieldwork, sans-serif;
@@ -301,13 +311,24 @@ footer {
   letter-spacing: 0.1em;
 }
 
+.footer-menu div {
+  /* background-color: magenta; */
+  display: flex;
+}
+
+.footer-copyright {
+  width: 48%;
+}
+
 .footer-second {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 37.5%;
 }
 
 .footer-second div {
-  margin-left: 40px;
+  /* background-color: brown; */
 }
 
 footer a:visited, footer a:active, footer a:link {
