@@ -47,7 +47,7 @@ func main() {
 		fs := http.FileServer(http.Dir("static"))
 
 		if len(port) == 0 {
-			fmt.Println("Gloabl enviroment variable $PORT is empty. Using default port 80. ")
+			fmt.Println("Global enviroment variable $PORT is empty. Using default port 80. ")
 			port = "80"
 		}
 
