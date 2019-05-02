@@ -286,6 +286,18 @@ a:hover {
   background-color: #eeeeed;
 }
 
+.ux-flow {
+  /* background-color: moccasin; */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+.ux-flow div {
+  /* background-color: salmon; */
+  width: 50%;
+}
 /* ----------------------------- HOME BUTTON -------------------------------- */
 .home-button {
   display: flex;
