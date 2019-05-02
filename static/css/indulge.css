@@ -259,7 +259,7 @@ a:hover {
 }
 
 /* ----------------------------- STRUCTURING ------------------------------------ */
-.structuring-app img, .wire-frame img {
+.structuring-app img, .wire-frame img, .final-design img {
   max-width: 100%;
   height: auto;
 }
@@ -287,15 +287,13 @@ a:hover {
 }
 
 .ux-flow {
-  /* background-color: moccasin; */
   display: flex;
   justify-content: space-between;
-  border: 1px solid silver;
+  border: 1px solid lightgray;
   padding: 10px;
 }
 
 .ux-flow div {
-  /* background-color: salmon; */
   width: 50%;
 }
 /* ----------------------------- HOME BUTTON -------------------------------- */
