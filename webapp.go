@@ -26,6 +26,8 @@ func router(request string) (*Page) {
 	switch request {
 	case "indulge":
 		return loadPage("indulge")
+	case "gen_tree":
+		return loadPage("gen_tree")
 	case "":
 		return loadPage("index")
 	default:
@@ -53,5 +55,6 @@ func main() {
 
 	  http.Handle("/", fs)
     http.HandleFunc("/indulge", handler)
+		http.HandleFunc("/gen_tree", handler)
     log.Fatal(http.ListenAndServe(":" + port, nil))
 }
