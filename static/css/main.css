@@ -141,15 +141,21 @@ a:hover {
   flex-direction: column;
 }
 
+.projects a {
+  color: white;
+}
+
 .indulge {
-  background-image: url('../images/bakery.jpeg');
+  background-image: url('../images/indulge.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 0px bottom -50px;
 }
 
-.projects a {
-  color: white;
+.playr {
+  background-image: url('../images/playr.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ------------------------------- ASPECT RATIO 1:1 ----------------------------------- */

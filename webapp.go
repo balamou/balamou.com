@@ -26,6 +26,8 @@ func router(request string) (*Page) {
 	switch request {
 	case "indulge":
 		return loadPage("indulge")
+	case "playr":
+		return loadPage("playr")
 	case "gen_tree":
 		return loadPage("gen_tree")
 	case "":
@@ -55,6 +57,7 @@ func main() {
 
 	  http.Handle("/", fs)
     http.HandleFunc("/indulge", handler)
+		http.HandleFunc("/playr", handler)
 		http.HandleFunc("/gen_tree", handler)
     log.Fatal(http.ListenAndServe(":" + port, nil))
 }
