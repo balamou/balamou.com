@@ -16,8 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://use.typekit.net/koz7xzw.css">
-    <link rel="stylesheet" href="/css/indulge.css">
-    <link rel="stylesheet" href="/css/responsive-indulge.css">
+    <link rel="stylesheet" href="/css/playr.css">
+    <link rel="stylesheet" href="/css/responsive-playr.css">
 
     <title>Michel Balamou - Playr</title>
   </head>
@@ -27,7 +27,7 @@
       <!-- Header picture -->
       <div class="header-container">
         <!-- Source Code-->
-        <a href="https://github.com/balamou/Indulge" target="_blank">
+        <a href="https://github.com/balamou/Playr" target="_blank">
         <div class="source-code align-horizontally">
           <div><img src="images/indulge/github.svg"/></div>
           <div class="source-code-text">Source code</div>
@@ -38,8 +38,8 @@
         <a href="#wireframes"><div class="wireframes">Wireframes</div></a>
 
         <div class="align-vertically">
-          <div class="main-title">Indulge.</div>
-          <div class="pic-container"><img src="images/indulge/bakery.png"></img></div>
+          <div class="main-title">Playr</div>
+          <div class="pic-container"><img src="images/playr/header.jpg"></img></div>
         </div>
       </div>
       <!-- /Header picture -->
@@ -48,22 +48,61 @@
       <div class="mini-summary-section">
       <div class="mini-summary margin-box">
       <div class="challenge">
-        <h1>The Challenge</h1>
-        <p>With the rise of numerous delivery services that aim
-        to achieve high volume, rather than good quality, it
-        has been increasingly difficult to find places online
-        that sell high quality deserts.</p>
+        <h1>The Idea</h1>
+        <p>Making an app that can stream videos from your local server</p>
       </div>
       <div class="outcome">
         <h1>The Outcome</h1>
-        <p>The final product is an app that lets users order
-        desserts, artisanal pastries and baked goods at
-        all times of the day.</p>
+        <p>--</p>
       </div>
     </div>
     </div>
     <!-- /mini-summary -->
 
+    <!-- Intro -->
+    <div class="margin-box">
+      <p><span>You might have been in this situation before:</span> you have videos/movies on your laptop that you want to stream on your app.
+        One solution could be setting up a simple webapp that parses your directory and compiles a simple html page with the video
+        wrapped in a <i>video</i> tag. This might work, but only with <i>.mp4</i> format videos. This does not solve the case when
+        you have an <i>.mkv</i> or a <i>.wmv</i> format video (which are quite common). My solution was to create an iOS app using
+        <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a> as a framework to display most if not all video formats.
+      </p>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Gif -->
+    <div class="margin-box">
+      <div style="display:flex;justify-content:center;">
+          <div style="width:30%;">
+          <img src="images/playr/playr.gif" style="max-width:100%;height:auto;"/>
+          </div>
+      </div>
+    </div>
+    <!-- /Gif -->
+
+
+    <!-- Setup -->
+    <div class="margin-box">
+      <h1>Setup</h1>
+      <p>For the <i>backend</i> I setup a <i>PHP server</i> on my raspberry pi. The PHP server acted as a middle man
+      for the data send to the app (through a REST API). The data for each video is stored in a MySQL database. I also wrote a
+      <i>python script</i> to parse any video that is added to the main directory and its subfolders.</p>
+    </div>
+    <!-- /Setup -->
+
+    <!-- Screenshots -->
+    <div class="margin-box">
+      <h1>Screenshots</h1>
+      <div class="screenshots">
+        <div><img src="images/playr/main.PNG"/></div>
+        <div><img src="images/playr/movie.PNG"/></div>
+        <div><img src="images/playr/series.PNG"/></div>
+      </div>
+      <div class="screenshots-2">
+        <div><img src="images/playr/player.PNG"/></div>
+      </div>
+    </div>
+    <!-- /Screenshots -->
 
   </div>
 
