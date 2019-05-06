@@ -153,7 +153,20 @@ a:hover {
 }
 
 .playr {
-  background-image: url('../images/playr.jpeg');
+  background-image: url('../images/playr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eatapp {
+  background-image: url('../images/eatapp.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 0px bottom -40px;
+}
+
+.game-123_6 {
+  background-image: url('../images/123_6.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
