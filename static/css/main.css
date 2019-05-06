@@ -169,6 +169,7 @@ a:hover {
   background-image: url('../images/123_6.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: left -45px bottom 0px;
 }
 
 /* ------------------------------- ASPECT RATIO 1:1 ----------------------------------- */
