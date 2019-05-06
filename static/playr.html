@@ -81,14 +81,34 @@
     <!-- /Gif -->
 
 
-    <!-- Setup -->
+    <!-- Development Process -->
     <div class="margin-box">
-      <h1>Setup</h1>
-      <p>For the <i>backend</i> I setup a <i>PHP server</i> on my raspberry pi. The PHP server acted as a middle man
-      for the data send to the app (through a REST API). The data for each video is stored in a MySQL database. I also wrote a
-      <i>python script</i> to parse any video that is added to the main directory and its subfolders.</p>
+      <h1>Development Process</h1>
+      <p>
+        <ul>
+        <li>I used <strong>Swift</strong> to make the app, and <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a> library to display videos.
+          VLCKit was bridged from Objective-C to Swift. Its API takes either the
+          video from the local storage of the device or a URL</li>
+        <li>I decided to design a server that will hold all URLs to the videos (as
+          well as metadata such as the title of the movie and its description). I
+          made the server in <strong>PHP</strong> using the <strong>MySQL</strong> database.</li>
+        <li>Apache was already available on raspberry pi, so setting up the local
+          server was pretty straight forward</li>
+        <li>PHP would have <strong>REST</strong> endpoints that a) return the list of videos/movies b)
+          return a URL to the video/movie and c) return any data associated with
+          the video/movie (title, description, length etc..)</li>
+        <li>I also wrote a <strong>shell script</strong> that would run anytime anyone would copy/move
+          a video to the server. The shell script sends the name of the folder/video that was
+          inserted to a <strong>python script</strong>. The python script uses an
+          <a href="http://www.omdbapi.com" target="_blank">IMDB API</a> and the folder
+          name to determine any data about the movie (such as episode titles, movie length,
+          description) and it inserts it into the MySQL database.</li>
+        </li>The database also tracks when each video has been stopped so it can be resumed from that timestamp.</li>
+        <li>The UI has been inspired by the one and only Netflix™</li>
+        </ul>
+      </p>
     </div>
-    <!-- /Setup -->
+    <!-- /Development Process -->
 
     <!-- Screenshots -->
     <div class="margin-box">
