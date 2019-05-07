@@ -44,7 +44,8 @@ header {
 }
 
 header h1 {
-  margin-bottom: 5px;
+  /* background-color: salmon; */
+  margin-bottom: -5px;
   /* Font */
   font-size: 50px;
   font-style: normal;
@@ -52,9 +53,10 @@ header h1 {
 }
 
 .subtext {
+  /* background-color: moccasin; */
   margin-bottom: 8px;
   /* Font */
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
   font-weight: 300;
 }
@@ -109,68 +111,61 @@ a:hover {
 /* ------------------------------- PROJECTS ----------------------------------- */
 .ios-projects h1 {
   text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-.projects {
+.extra {
+  /* background-color: salmon; */
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 100px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 100px;
 
   /* FONT */
   font-size: 13px;
   line-height: 1.6em;
 }
 
-.projects h2 {
-  margin-bottom: 8px;
-}
-
-.projects > div {
-  width: 49%;
-  padding: 15px;
-  margin: 10px 0px;
-
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  border-radius: 15px;
-  height: 280px;
-
-  /* Move description to the bottom of div */
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-}
-
-.projects a {
+.extra a {
   color: white;
 }
 
-.indulge {
-  background-image: url('../images/indulge.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 0px bottom -50px;
+.extra h2 {
+  margin-bottom: 8px;
 }
 
-.playr {
-  background-image: url('../images/playr.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+.extra > div {
+  position: relative;
+  width: 49%;
+  margin-bottom: 15px;
+
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  border-radius: 15px;
 }
 
-.eatapp {
-  background-image: url('../images/eatapp.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 0px bottom -40px;
+.extra img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
+  vertical-align: top;
+
+  border-radius: 15px;
 }
 
-.game-123_6 {
-  background-image: url('../images/123_6.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+.move-to-bottom {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
+.move-to-bottom > div {
+  margin: 15px 15px;
+}
 /* ------------------------------- ASPECT RATIO 1:1 ----------------------------------- */
 .make-rect {
   position: relative;

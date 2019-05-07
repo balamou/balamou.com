@@ -28,6 +28,10 @@ func router(request string) (*Page) {
 		return loadPage("indulge")
 	case "playr":
 		return loadPage("playr")
+	case "123_6":
+		return loadPage("123_6")
+	case "eatapp":
+		return loadPage("eatapp")
 	case "gen_tree":
 		return loadPage("gen_tree")
 	case "":
@@ -58,6 +62,8 @@ func main() {
 	  http.Handle("/", fs)
     http.HandleFunc("/indulge", handler)
 		http.HandleFunc("/playr", handler)
+		http.HandleFunc("/123_6", handler)
+		http.HandleFunc("/eatapp", handler)
 		http.HandleFunc("/gen_tree", handler)
     log.Fatal(http.ListenAndServe(":" + port, nil))
 }
