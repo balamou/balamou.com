@@ -90,6 +90,15 @@
     width: 100%;
   }
 
+  .extra {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+
+  .extra > div {
+    width: 100%;
+  }
+
   /* FOOTER  */
   footer {
     margin: 50px 0px;
