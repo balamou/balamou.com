@@ -28,6 +28,19 @@
 }
 
 @media screen and (max-width: 600px) {
+  .extra {
+    line-height: 1.3em;
+    padding: 0px 50px;
+  }
+
+  .extra p {
+    text-overflow: ellipsis;
+
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
   .footer-menu {
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -82,21 +95,28 @@
     font-size: 13px;
   }
 
-  .projects {
-    flex-direction: column;
-  }
+  .extra p {
+    text-overflow: initial;
 
-  .projects div {
-    width: 100%;
+    /* Required for text-overflow to do anything */
+    white-space: initial;
+    overflow: initial;
   }
 
   .extra {
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 50px;
+
+    font-size: 16px;
+    line-height: 1.6em;
   }
 
   .extra > div {
     width: 100%;
+  }
+
+  .extra > div {
+    margin-bottom: 25px;
   }
 
   /* FOOTER  */

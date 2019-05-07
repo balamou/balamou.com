@@ -111,70 +111,10 @@ a:hover {
 /* ------------------------------- PROJECTS ----------------------------------- */
 .ios-projects h1 {
   text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 100px;
-
-  /* FONT */
-  font-size: 13px;
-  line-height: 1.6em;
-}
-
-.projects h2 {
-  margin-bottom: 8px;
-}
-
-.projects > div {
-  width: 49%;
-  padding: 15px;
-  margin: 10px 0px;
-
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  border-radius: 15px;
-  height: 280px;
-
-  /* Move description to the bottom of div */
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-}
-
-.projects a {
-  color: white;
-}
-
-.indulge {
-  background-image: url('../images/indulge.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 0px bottom -50px;
-}
-
-.playr {
-  background-image: url('../images/playr.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.eatapp {
-  background-image: url('../images/eatapp.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right 0px bottom -40px;
-}
-
-.game-123_6 {
-  background-image: url('../images/123_6.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left -45px bottom 0px;
-}
-
-/* ------------------------------- EXTRA ----------------------------------- */
 .extra {
   /* background-color: salmon; */
   display: flex;
@@ -186,6 +126,10 @@ a:hover {
   /* FONT */
   font-size: 13px;
   line-height: 1.6em;
+}
+
+.extra a {
+  color: white;
 }
 
 .extra h2 {
