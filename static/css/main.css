@@ -179,6 +179,7 @@ a:hover {
   /* background-color: salmon; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
   padding: 0 100px;
 
@@ -194,7 +195,7 @@ a:hover {
 .extra > div {
   position: relative;
   width: 49%;
-  background-color: moccasin;
+  margin-bottom: 15px;
 
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
   border-radius: 15px;
