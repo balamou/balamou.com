@@ -78,12 +78,24 @@ div.link {
   position: relative;
 }
 
-.align-vertically {
+.top-header {
   position: relative;
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
+}
+
+.top-header > div {
+  width: 100%;
+}
+
+.top-header img {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 33px 33px 0px 0px;
 }
 
 .align-horizontally {
@@ -92,12 +104,7 @@ div.link {
   align-items: center;
 }
 
-.pic-container img {
-  display: block;
-  width: 100%;
-}
-
-.main-title {
+.project-title {
   position: absolute;
   color: white;
   width: 100%;
