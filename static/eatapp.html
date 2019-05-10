@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/css/playr.css">
     <link rel="stylesheet" href="/css/responsive-playr.css">
 
-    <title>Michel Balamou - Playr</title>
+    <title>Michel Balamou - EatApp</title>
   </head>
   <body>
     <div class="content">
@@ -27,7 +27,7 @@
       <!-- Header picture -->
       <div class="header-container">
         <!-- Source Code-->
-        <a href="https://github.com/balamou/Playr" target="_blank">
+        <a href="https://github.com/XContinuum/EatApp" target="_blank">
         <div class="source-code align-horizontally">
           <div><img src="images/indulge/github.svg"/></div>
           <div class="source-code-text">Source code</div>
@@ -38,8 +38,8 @@
         <a href="#wireframes"><div class="wireframes">Wireframes</div></a>
 
         <div class="align-vertically">
-          <div class="main-title">Playr</div>
-          <div class="pic-container"><img src="images/playr/header.jpg"></img></div>
+          <div class="main-title"></br></br></br>EatApp</div>
+          <div class="pic-container"><img src="images/eatapp/header.png"></img></div>
         </div>
       </div>
       <!-- /Header picture -->
@@ -52,10 +52,8 @@
         <p>Making an app that can stream videos from your local server</p>
       </div>
       <div class="outcome">
-        <h1>Technology</h1>
-        <p>Swift + Dependencies: VLCKit, Kingfisher</br>
-           PHP, MySQL, Python, Shell
-      </p>
+        <h1>The Outcome</h1>
+        <p>--</p>
       </div>
     </div>
     </div>
@@ -82,70 +80,6 @@
     </div>
     </div>
     <!-- /Intro -->
-
-    <!-- Gif -->
-    <div class="margin-box">
-      <div style="display:flex;justify-content:center;">
-          <div style="width:30%;">
-          <img src="images/playr/playr.gif" style="max-width:100%;height:auto;"/>
-          </div>
-      </div>
-    </div>
-    <!-- /Gif -->
-
-
-    <!-- Development Process -->
-    <div class="margin-box">
-      <h1>Development Process</h1>
-      <p>
-        <ul>
-        <li>I used <strong>Swift</strong> to make the app, and <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a> library to display videos.
-          VLCKit was bridged from Objective-C to Swift. Its API takes either the
-          video from the local storage of the device or a URL</li>
-        <li>I decided to design a server that will hold all URLs to the videos (as
-          well as metadata such as the title of the movie and its description). I
-          made the server in <strong>PHP</strong> using the <strong>MySQL</strong> database.</li>
-        <li>Apache was already available on raspberry pi, so setting up the local
-          server was pretty straight forward</li>
-        <li>PHP would have <strong>REST</strong> endpoints that a) return the list of videos/movies b)
-          return a URL to the video/movie and c) return any data associated with
-          the video/movie (title, description, length etc..)</li>
-        <li>I also wrote a <strong>shell script</strong> that would run anytime anyone would copy/move
-          a video to the server. The shell script sends the name of the folder/video that was
-          inserted to a <strong>python script</strong>. The python script uses an
-          <a href="http://www.omdbapi.com" target="_blank">IMDB API</a> and the folder
-          name to determine any data about the movie (such as episode titles, movie length,
-          description) and it inserts it into the MySQL database.</li>
-        </li>The database also tracks when each video has been stopped so it can be resumed from that timestamp.</li>
-        <li>The UI has been inspired by the one and only Netflix™</li>
-        </ul>
-      </p>
-
-      <div class="architecture">
-        <div>
-        <img src="images/playr/architecture.png" />
-        </div>
-      </div>
-    </div>
-    <!-- /Development Process -->
-
-    <!-- Screenshots -->
-    <div class="margin-box">
-      <h1>Final result</h1>
-      <p>The project took about a week and a half to get to a workable state.
-        It took me another two weeks to improve on the architecture of the app
-        and the UI.</p>
-      </br>
-      <div class="screenshots">
-        <div><img src="images/playr/main.PNG"/></div>
-        <div><img src="images/playr/movie.PNG"/></div>
-        <div><img src="images/playr/series.PNG"/></div>
-      </div>
-      <div class="screenshots-2">
-        <div><img src="images/playr/player.PNG"/></div>
-      </div>
-    </div>
-    <!-- /Screenshots -->
 
   </div>
 

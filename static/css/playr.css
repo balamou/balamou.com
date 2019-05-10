@@ -223,6 +223,23 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+.architecture img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.architecture {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.architecture > div {
+  width: 80%;
+}
+
 /* ----------------------------- HOME BUTTON -------------------------------- */
 .home-button {
   display: flex;
