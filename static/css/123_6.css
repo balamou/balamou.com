@@ -127,6 +127,9 @@ a:hover {
   left: 10px;
   bottom: 10px;
 
+  display: flex;
+  align-items: center;
+
   /* Roboto Regular */
   font-family: roboto, sans-serif;
   font-style: normal;
@@ -136,10 +139,11 @@ a:hover {
 .source-code img {
   width: 30px;
   height: 30px;
+  vertical-align: top;
 }
 
 .source-code-text {
-  padding-left: 10px;
+  margin-left: 8px;
 }
 
 .source-code-text a:link, .source-code-text a:active, .source-code-text a:visited, .source-code-text a:hover {
