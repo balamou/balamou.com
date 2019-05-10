@@ -1,4 +1,4 @@
-# balamou.com
+# <a href="http://www.balamou.com">balamou.com</a>
 
   Portfolio website showcasing all my projects
 
