@@ -1,16 +1,4 @@
-/* ----------------------------- MINI SUMMARY ------------------------------- */
-.mini-summary {
-  display: flex;
-  font-size: 11px;
-  line-height: 1.6em;
-  margin-top: 0px;
-}
-
-.challenge {
-  margin-right: 50px;
-  width: 60%;
-}
-
+/* ----------------------------- MAIN ------------------------------- */
 .main-gif {
   display: flex;
   justify-content: center;
@@ -52,17 +40,6 @@
 }
 
 /* ------------------------------ RESPONSIVE -------------------------------- */
-@media screen and (max-width: 850px) {
-
-  .intro {
-    margin-top: 0px;
-  }
-
-  .flow-item-3 {
-    margin-left: 10px;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .screenshots-2 div {
     width: 100%;

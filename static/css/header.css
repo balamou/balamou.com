@@ -153,10 +153,22 @@ a:hover {
   font-weight: 400;
 }
 
-/* -------------------------------- OTHER ----------------------------------- */
+/* ------------------------------ MINI SUMMARY ------------------------------ */
 .mini-summary-section {
   padding: 30px 0px;
   background-color: #F7F8FA;
+}
+
+.mini-summary {
+  display: flex;
+  font-size: 11px;
+  line-height: 1.6em;
+  margin-top: 0px;
+}
+
+.section-1 {
+  margin-right: 50px;
+  width: 60%;
 }
 
 .mini-summary h1 {
@@ -168,6 +180,7 @@ a:hover {
   font-weight: 700;
 }
 
+/* -------------------------------- OTHER ----------------------------------- */
 .align-vertically {
   position: relative;
   display: flex;
@@ -180,13 +193,4 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.intro {
-  margin-top: 0px;
-}
-
-.intro span {
-  font-weight: bold;
-  font-size: 15px;
 }
