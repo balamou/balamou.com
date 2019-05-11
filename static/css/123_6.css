@@ -1,3 +1,14 @@
+/* -------------------------------- HEADER ---------------------------------- */
+
+.source-code img {
+  width: 22px;
+  height: 22px;
+}
+
+.source-code-text {
+  margin-left: 5px;
+}
+
 /* ----------------------------- MINI SUMMARY ------------------------------- */
 .mini-summary {
   display: flex;
