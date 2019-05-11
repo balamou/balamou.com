@@ -1,186 +1,8 @@
-/* Remove all paddings using universial selector */
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
-  color: #3C3C3C;
-  /* Padding */
-  padding: 60px 30vh 0px 30vh;
-
-  background-color: #E8EDF3;
-  letter-spacing: 0.05em;
-
-  /* Font */
-  font-family: ivyjournal, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-}
-
-.content {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  border-radius: 33px;
-
-  line-height: 1.9em;
-  padding-bottom: 40px;
-}
-
-.margin-box {
-  margin: 0px 90px;
-  margin-top: 30px;
-}
-
-.intro {
-  margin-top: 0px;
-}
-
-ul {
-  padding-left: 40px;
-}
-
-h1 {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4a494a;
-}
-
-h2 {
-  font-style: normal;
-  font-size: 13px;
-  color: #4a494a;
-}
-
-p {
-  text-align: justify;
-}
-
-.semi-bold {
-  font-weight:600;
-}
-
-a:link, a:active {
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-  color: gray;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #1770FF;
-}
-/* ----------------------------- HEADER PICTURE ----------------------------- */
-.header-container {
-  position: relative;
-}
-
-.header-container img {
-  border-radius: 33px 33px 0 0;
-}
-
-.align-vertically {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.align-horizontally {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.pic-container img {
-  display: block;
-  width: 100%;
-}
-
-.main-title {
-  position: absolute;
-  color: white;
-  width: 100%;
-  text-align: center;
-
-  /* Font */
-  font-size: 100px;
-  font-family: roboto, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-}
-
-.source-code {
-  position: absolute;
-  color: white;
-  z-index: 100;
-  left: 10px;
-  bottom: 10px;
-
-  display: flex;
-  align-items: center;
-
-  /* Roboto Regular */
-  font-family: roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.source-code img {
-  width: 22px;
-  height: 22px;
-  vertical-align: top;
-}
-
-.source-code-text {
-  margin-left: 5px;
-}
-
-.source-code-text a:link, .source-code-text a:active, .source-code-text a:visited, .source-code-text a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.wireframes {
-  position: absolute;
-  color: white;
-  z-index: 100;
-  right: 10px;
-  bottom: 15px;
-
-  /* Roboto Regular */
-  font-family: roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-.intro span {
-  font-weight: bold;
-  font-size: 15px;
-}
-
 /* ----------------------------- MINI SUMMARY ------------------------------- */
-.mini-summary-section {
-  padding: 30px 0px;
-  background-color: #F7F8FA;
-}
-
 .mini-summary {
   display: flex;
   margin-top: 0px;
-  /* background-color: salmon; */
   padding: 0px 100px;
-
 
   /* FONT */
   font-size: 20px;
@@ -191,15 +13,21 @@ a:hover {
 }
 
 /* ------------------------------- DETAILS ---------------------------------- */
+.main-pic {
+  display: flex;
+  justify-content: center;
+}
+
+.main-pic div {
+  width: 30%;
+}
+
 .appstore {
   justify-content: center;
   display: flex;
 }
 
 .appstore img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: top;
   border: 1px solid whitesmoke;
 }
 
@@ -215,111 +43,4 @@ a:hover {
 
 .screenshots div {
   width: 33%;
-}
-
-.screenshots img {
-  max-width: 100%;
-  height: auto;
-}
-
-.screenshots-2 {
-  display: flex;
-  justify-content: center;
-}
-
-.screenshots-2 div {
-  width: 33%;
-}
-
-.screenshots-2 img {
-  max-width: 100%;
-  height: auto;
-}
-/* ----------------------------- HOME BUTTON -------------------------------- */
-.home-button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: -20px;
-}
-
-.adjust-btn {
-  background-color: white;
-  width: 200px;
-  height: 40px;
-  text-align: center;
-  margin-top: 30px;
-
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  border-radius: 33px;
-
-  /* Align text center */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* Fieldwork Geo Light */
-  font-family: fieldwork, sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-/* ------------------------------- FOOTER ----------------------------------- */
-footer {
-  color:black;
-  width: 100%;
-  margin: 50px 0;
-  padding: 0px 50px;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-message {
-  text-align: center;
-
-  /* Font */
-  font-family: roboto, sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  font-size: 44px;
-  letter-spacing: 0.1em;
-}
-
-.footer-menu {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  /* Fieldwork Geo Light */
-  font-family: fieldwork, sans-serif;
-  font-style: normal;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-.footer-menu {
-  display: flex;
-}
-
-.footer-copyright {
-  width: 48%;
-}
-
-.footer-second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 37.5%;
-}
-
-footer a:visited, footer a:active, footer a:link {
-  color: black;
-}
-
-footer a:hover {
-  color: #1770FF;
 }

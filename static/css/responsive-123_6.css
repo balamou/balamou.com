@@ -3,10 +3,6 @@
     padding: 60px 10vh 0px 10vh;
     width: auto;
   }
-
-  .footer-second {
-    width: 45%;
-  }
 }
 
 @media screen and (max-width: 850px) {
@@ -65,26 +61,6 @@
   .tools div {
     width: 80%;
   }
-
-  /* FOOTER */
-  .footer-menu {
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-  }
-
-  .footer-copyright {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .footer-second {
-    width: 60%;
-  }
-
-  .footer-message {
-    font-size: 30px;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -109,7 +85,7 @@
     margin: 20px 10px;
   }
 
-  .project-title {
+  .main-title {
     font-size: 60px;
   }
 
@@ -138,21 +114,5 @@
 
   .ux-flow div {
     width: 100%;
-  }
-
-  footer {
-    margin: 50px 0px;
-  }
-
-  .footer-menu {
-    justify-content: center;
-  }
-
-  .footer-copyright {
-    width: 100%;
-  }
-
-  .footer-second {
-    width: 80%;
   }
 }

@@ -111,13 +111,14 @@
           return a URL to the video/movie and c) return any data associated with
           the video/movie (title, description, length etc..)</li>
         <li>I also wrote a <strong>shell script</strong> that would run anytime anyone would copy/move
-          a video to the server. The shell script sends the name of the folder/video that was
+          a video to the server (using <a href="http://man7.org/linux/man-pages/man7/inotify.7.html" target="_blank">inotify</a>).
+          The shell script sends the name of the folder/video that was
           inserted to a <strong>python script</strong>. The python script uses an
           <a href="http://www.omdbapi.com" target="_blank">IMDB API</a> and the folder
           name to determine any data about the movie (such as episode titles, movie length,
           description) and it inserts it into the MySQL database.</li>
         </li>The database also tracks when each video has been stopped so it can be resumed from that timestamp.</li>
-        <li>The UI has been inspired by the one and only Netflix™</li>
+        <li>The UI has been inspired by the one and only – Netflix™</li>
         </ul>
       </p>
 
