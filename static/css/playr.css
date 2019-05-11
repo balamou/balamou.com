@@ -6,18 +6,18 @@
   margin-top: 0px;
 }
 
-.mini-summary h1 {
-  margin: 0px;
-  margin-bottom: 5px;
-
-  /* Fonts */
-  font-size: 11px;
-  font-weight: 700;
-}
-
 .challenge {
   margin-right: 50px;
   width: 60%;
+}
+
+.main-gif {
+  display: flex;
+  justify-content: center;
+}
+
+.main-gif > div {
+  width: 30%;
 }
 
 /* ----------------------------- ARCHITECTURE -------------------------------- */
@@ -44,6 +44,7 @@
 .screenshots-2 {
   display: flex;
   justify-content: center;
+  margin-top: 5px;
 }
 
 .screenshots-2 div {
@@ -59,5 +60,23 @@
 
   .flow-item-3 {
     margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screenshots-2 div {
+    width: 100%;
+  }
+
+  .architecture div {
+    width: 100%;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .main-gif > div {
+    width: 80%;
   }
 }
