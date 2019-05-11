@@ -9,20 +9,9 @@
   margin-left: 5px;
 }
 
-/* ----------------------------- MINI SUMMARY ------------------------------- */
-.mini-summary {
-  display: flex;
-  margin-top: 0px;
-  padding: 0px 100px;
-
-  /* FONT */
-  font-size: 20px;
-  line-height: 1.6em;
-  font-weight: 600;
-
-  color:#4a494a;
+.section-1 {
+   width: 70%;
 }
-
 /* ------------------------------- DETAILS ---------------------------------- */
 .main-pic {
   display: flex;

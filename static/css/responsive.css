@@ -26,6 +26,11 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  ul {
+    padding-left: 20px;
+  }
+
   .mini-summary {
     margin: 0px 50px;
     display: flex;
