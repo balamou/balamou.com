@@ -56,7 +56,8 @@
       </div>
       <div class="section-2">
         <h1>Technology</h1>
-        <p>Swift + Dependencies: VLCKit, Kingfisher</br>
+        <p>Swift + Dependencies: <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a>,
+          <a href="https://github.com/onevcat/Kingfisher" target="_blank">Kingfisher</a></br>
            PHP, MySQL, Python, Shell
       </p>
       </div>
@@ -78,7 +79,7 @@
     </br>
     </p>
 
-    <div style="background-color:whitesmoke;padding:10px 40px;">
+    <div class="disclaimer">
       <b>Disclaimer</b>: this is NOT a tutorial on how to illegally obtain movies. I do
       not condone torrenting movies. Everything showed in the screenshots is mock data
       pulled from imdb for demonstrative purposes only.
@@ -97,9 +98,10 @@
       <h1>Development Process</h1>
       <p>
         <ul>
-        <li>I used <strong>Swift</strong> to make the app, and <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a> library to display videos.
-          VLCKit was bridged from Objective-C to Swift. Its API takes either the
-          video from the local storage of the device or a URL</li>
+        <li>I used <strong>Swift</strong> to make the app, and
+          <a href="https://wiki.videolan.org/VLCKit/" target="_blank">VLCKit</a>
+          library to display videos. VLCKit was bridged from Objective-C to Swift.
+          Its API takes either the video from the local storage of the device or a URL</li>
         <li>I decided to design a server that will hold all URLs to the videos (as
           well as metadata such as the title of the movie and its description). I
           made the server in <strong>PHP</strong> using the <strong>MySQL</strong> database.</li>

@@ -8,6 +8,11 @@
   width: 30%;
 }
 
+.disclaimer {
+  background-color: whitesmoke;
+  padding: 10px 40px;
+}
+
 /* ----------------------------- ARCHITECTURE -------------------------------- */
 .architecture {
   display: flex;

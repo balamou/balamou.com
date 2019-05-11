@@ -1,4 +1,7 @@
 /* -------------------------------- HEADER ---------------------------------- */
+.source-code {
+  color:#3C3C3C;
+}
 
 .source-code img {
   width: 22px;
@@ -6,11 +9,15 @@
 }
 
 .source-code-text {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .section-1 {
    width: 70%;
+}
+
+.wireframes {
+  display: none;
 }
 /* ------------------------------- DETAILS ---------------------------------- */
 .main-pic {
