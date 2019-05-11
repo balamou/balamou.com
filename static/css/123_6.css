@@ -44,3 +44,19 @@
 .screenshots div {
   width: 33%;
 }
+
+/* ------------------------------ RESPONSIVE -------------------------------- */
+@media screen and (max-width: 600px) {
+  .main-pic div {
+    width: 80%;
+  }
+
+  .mini-summary {
+    padding: 0px 20px;
+  }
+
+  .appstore div {
+    width: 80%;
+    margin-top: 15px;
+  }
+}
