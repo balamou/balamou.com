@@ -10,6 +10,25 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-139409852-1');
+
+      function main() {
+          attachIdToPage("balamou", "http://balamou.com");
+          attachIdToPage("slim", "https://www.linkedin.com/in/jad-slim-254a98102/");
+          attachIdToPage("hathat", "https://www.linkedin.com/in/khaled-hathat-019a6897/");
+      }
+
+      function attachIdToPage(id, url) {
+        var node = document.getElementById(id);
+
+        node.addEventListener('click', function () { openAddress(url); }, false);
+      }
+
+      function openAddress(url) {
+          window.open(url, '_blank');
+      }
+
+      window.addEventListener('load', main, false);
+
     </script>
 
     <meta charset="utf-8">
@@ -67,26 +86,20 @@
     <!-- Team pictures -->
     <div class="team">
       <!-- Michel -->
-      <a href="http://balamou.com" target="_blank">
-        <div class="avi">
-          <div><img src="images/indulge/michel.png" alt="Michel Balamou"/></div>
-          <div>Michel Balamou</div>
-        </div>
-      </a>
+      <div class="avi grow" id="balamou">
+        <div><img src="images/indulge/michel.png" alt="Michel Balamou"/></div>
+        <div>Michel Balamou</div>
+      </div>
       <!-- Jad -->
-      <a href="https://www.linkedin.com/in/jad-slim-254a98102/" target="_blank">
-        <div class="avi">
-          <div><img src="images/indulge/jad_slim.png" alt="Jad Slim"/></div>
-          <div>Jad Slim</div>
-        </div>
-      </a>
+      <div class="avi grow" id="slim">
+        <div><img src="images/indulge/jad_slim.png" alt="Jad Slim"/></div>
+        <div>Jad Slim</div>
+      </div>
       <!-- Khaled -->
-      <a href="https://www.linkedin.com/in/khaled-hathat-019a6897/" target="_blank">
-        <div class="avi">
-          <div><img src="images/indulge/khaled.png" alt="Khaled Hathat"/></div>
-          <div>Khaled Hathat</div>
-        </div>
-      </a>
+      <div class="avi grow" id="hathat">
+        <div><img src="images/indulge/khaled.png" alt="Khaled Hathat"/></div>
+        <div>Khaled Hathat</div>
+      </div>
     </div>
     <!-- /Team pictures -->
 
