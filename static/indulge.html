@@ -15,6 +15,11 @@
           bindURLtoNode("balamou", "http://balamou.com");
           bindURLtoNode("slim", "https://www.linkedin.com/in/jad-slim-254a98102/");
           bindURLtoNode("hathat", "https://www.linkedin.com/in/khaled-hathat-019a6897/");
+
+          // set the 'grow' class after loading to avoid lag effect
+          document.getElementById("balamou").setAttribute("class", "avi grow");
+          document.getElementById("slim").setAttribute("class", "avi grow");
+          document.getElementById("hathat").setAttribute("class", "avi grow");
       }
 
       function bindURLtoNode(id, url) {
@@ -86,17 +91,17 @@
     <!-- Team pictures -->
     <div class="team">
       <!-- Michel -->
-      <div class="avi grow" id="balamou">
+      <div class="avi" id="balamou">
         <div><img src="images/indulge/michel.png" alt="Michel Balamou"/></div>
         <div>Michel Balamou</div>
       </div>
       <!-- Jad -->
-      <div class="avi grow" id="slim">
+      <div class="avi" id="slim">
         <div><img src="images/indulge/jad_slim.png" alt="Jad Slim"/></div>
         <div>Jad Slim</div>
       </div>
       <!-- Khaled -->
-      <div class="avi grow" id="hathat">
+      <div class="avi" id="hathat">
         <div><img src="images/indulge/khaled.png" alt="Khaled Hathat"/></div>
         <div>Khaled Hathat</div>
       </div>

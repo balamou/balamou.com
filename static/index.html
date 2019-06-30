@@ -16,6 +16,12 @@
           bindURLtoNode("playr", "playr");
           bindURLtoNode("eatapp", "eatapp");
           bindURLtoNode("game_123_6", "123_6");
+
+          // set the 'grow' class after loading to avoid lag effect
+          document.getElementById("indulge").setAttribute("class", "grow");
+          document.getElementById("playr").setAttribute("class", "grow");
+          document.getElementById("eatapp").setAttribute("class", "grow");
+          document.getElementById("game_123_6").setAttribute("class", "grow");
       }
 
       function bindURLtoNode(id, url) {
@@ -77,7 +83,7 @@
   <div class="ios-projects">
   <h1>Projects</h1>
   <div class="extra">
-    <div id="indulge" class="grow">
+    <div id="indulge">
       <div class="move-to-bottom">
         <div>
           <a href="indulge">
@@ -91,7 +97,7 @@
       <div><img src="images/indulge.png" alt="Indulge project image"/></div>
     </div>
 
-    <div id="playr" class="grow">
+    <div id="playr">
       <div class="move-to-bottom">
         <div>
           <a href="playr">
@@ -104,7 +110,7 @@
       <div><img src="images/playr.png" alt="Playr project image"/></div>
     </div>
 
-    <div id="eatapp" class="grow">
+    <div id="eatapp">
       <div class="move-to-bottom">
         <div class="eatapp">
           <a href="eatapp">
@@ -117,7 +123,7 @@
       <div><img src="images/eatapp.png" alt="EatApp project image"/></div>
     </div>
 
-    <div id="game_123_6" class="grow">
+    <div id="game_123_6">
       <div class="move-to-bottom">
         <div class="game_123_6">
           <a href="123_6">
