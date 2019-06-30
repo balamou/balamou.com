@@ -12,12 +12,12 @@
       gtag('config', 'UA-139409852-1');
 
       function main() {
-          attachIdToPage("balamou", "http://balamou.com");
-          attachIdToPage("slim", "https://www.linkedin.com/in/jad-slim-254a98102/");
-          attachIdToPage("hathat", "https://www.linkedin.com/in/khaled-hathat-019a6897/");
+          bindURLtoNode("balamou", "http://balamou.com");
+          bindURLtoNode("slim", "https://www.linkedin.com/in/jad-slim-254a98102/");
+          bindURLtoNode("hathat", "https://www.linkedin.com/in/khaled-hathat-019a6897/");
       }
 
-      function attachIdToPage(id, url) {
+      function bindURLtoNode(id, url) {
         var node = document.getElementById(id);
 
         node.addEventListener('click', function () { openAddress(url); }, false);

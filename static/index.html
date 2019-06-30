@@ -12,19 +12,20 @@
       gtag('config', 'UA-139409852-1');
 
       function main() {
-          var indulge = document.getElementById("indulge");
-          var playr = document.getElementById("playr");
-          var eatapp = document.getElementById("eatapp");
-          var game_123_6 = document.getElementById("game_123_6");
-
-          indulge.addEventListener('click', function () { openAddress("indulge"); }, false);
-          playr.addEventListener('click', function () { openAddress("playr"); }, false);
-          eatapp.addEventListener('click', function () { openAddress("eatapp"); }, false);
-          game_123_6.addEventListener('click', function () { openAddress("123_6"); }, false);
+          bindURLtoNode("indulge", "indulge");
+          bindURLtoNode("playr", "playr");
+          bindURLtoNode("eatapp", "eatapp");
+          bindURLtoNode("game_123_6", "123_6");
       }
 
-      function openAddress(address) {
-          window.location.href = address;
+      function bindURLtoNode(id, url) {
+        var node = document.getElementById(id);
+
+        node.addEventListener('click', function () { openAddress(url); }, false);
+      }
+
+      function openAddress(url) {
+          window.location.href = url;
       }
 
       window.addEventListener('load', main, false);
