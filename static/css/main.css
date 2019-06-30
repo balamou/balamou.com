@@ -109,6 +109,10 @@ a:hover {
 }
 
 /* ------------------------------- PROJECTS ----------------------------------- */
+#indulge, #playr, #eatapp, #game_123_6 {
+  cursor: pointer;
+}
+
 .ios-projects h1 {
   text-align: center;
   text-transform: uppercase;
